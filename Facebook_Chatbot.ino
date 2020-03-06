@@ -3,13 +3,13 @@
 #include <ESP8266WiFi.h>              //ESP8266 Wi-Fi libraries
 
 #define relayPin D3                   //declare the relay pin
-#define WLAN_SSID "Abishek"          //enter your WiFi network name within the double quotes & 
-#define WLAN_PASS "1154611680057"          //password here
+#define WLAN_SSID ""          //enter your WiFi network name within the double quotes & 
+#define WLAN_PASS ""          //password here
 
 #define AIO_SERVER       "io.adafruit.com"
 #define AIO_SERVERPORT   1883               // use 8883 is used for SSL
-#define AIO_USERNAME     "Abishekraja"       //Username of Adafruit IO (for this click the Golden Key in Adafruit IO Dashboard)
-#define AIO_KEY          "80dc16e0c0ae4b25b583db88a78c861b"       //key of Adafruit IO (for this click the Golden Key in Adafruit IO Dashboard)
+#define AIO_USERNAME     ""       //Username of Adafruit IO (for this click the Golden Key in Adafruit IO Dashboard)
+#define AIO_KEY          ""       //key of Adafruit IO (for this click the Golden Key in Adafruit IO Dashboard)
 
 WiFiClient client;                                                                                  // Create an ESP8266 WiFiClient class to connect to the MQTT server.
 Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);              // Setup the MQTT client class by passing in the WiFi client and MQTT server and login details.
