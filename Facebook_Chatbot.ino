@@ -17,7 +17,7 @@ Adafruit_MQTT_Subscribe onoffbutton = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAM
 void MQTT_connect();
 void setup() 
 {
-  pinMode(relayPin, OUTPUT);
+  pinMode(relayPin, OUTPUT);//relay declaration
   digitalWrite(relayPin, LOW);  
   Serial.begin(9600);
   delay(10);
