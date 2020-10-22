@@ -8,7 +8,7 @@
 
 #define AIO_SERVER       "io.adafruit.com"
 #define AIO_SERVERPORT   1883               // use 8883 is used for SSL
-#define AIO_USERNAME     ""       //Username of Adafruit IO (for this click the Golden Key in Adafruit IO Dashboard)
+#define AIO_USERNAME     ""       //Username of Adafruit IO for this click the Golden Key in Adafruit IO Dashboard
 #define AIO_KEY          ""       //key of Adafruit IO (for this click the Golden Key in Adafruit IO Dashboard)
 
 WiFiClient client;                                                                                  // Create an ESP8266 WiFiClient class to connect to the MQTT server.
